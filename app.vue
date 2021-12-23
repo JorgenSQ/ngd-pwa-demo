@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div  flex="~ row">
     <h1>Counter: {{ count }}</h1>
     <Button label="Press me" icon="pi pi-check" @click="count++"></Button>
     <h1>pos: {{ x }}, {{ y }}</h1>
